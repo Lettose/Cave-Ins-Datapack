@@ -1,0 +1,1 @@
+execute as @s run function cave_in:config/main_config

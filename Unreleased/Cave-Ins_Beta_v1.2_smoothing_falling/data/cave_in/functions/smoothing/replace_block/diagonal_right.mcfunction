@@ -1,0 +1,54 @@
+execute if block ~ ~ ~ cobblestone run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"cobblestone"}}
+execute if block ~ ~ ~ cobbled_deepslate run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"cobbled_deepslate"}}
+execute if block ~ ~ ~ tuff run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"tuff"}}
+execute if block ~ ~ ~ andesite run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"andesite"}}
+execute if block ~ ~ ~ diorite run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"diorite"}}
+execute if block ~ ~ ~ granite run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"granite"}}
+execute if block ~ ~ ~ coal_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"coal_ore"}}
+execute if block ~ ~ ~ iron_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"iron_ore"}}
+execute if block ~ ~ ~ gold_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"gold_ore"}}
+execute if block ~ ~ ~ emerald_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"emerald_ore"}}
+execute if block ~ ~ ~ redstone_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"redstone_ore"}}
+execute if block ~ ~ ~ lapis_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"lapis_ore"}}
+execute if block ~ ~ ~ copper_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"copper_ore"}}
+execute if block ~ ~ ~ diamond_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"diamond_ore"}}
+execute if block ~ ~ ~ deepslate_coal_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"deepslate_coal_ore"}}
+execute if block ~ ~ ~ deepslate_iron_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"deepslate_iron_ore"}}
+execute if block ~ ~ ~ deepslate_gold_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"deepslate_gold_ore"}}
+execute if block ~ ~ ~ deepslate_emerald_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"deepslate_emerald_ore"}}
+execute if block ~ ~ ~ deepslate_redstone_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"deepslate_redstone_ore"}}
+execute if block ~ ~ ~ deepslate_lapis_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"deepslate_lapis_ore"}}
+execute if block ~ ~ ~ deepslate_copper_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"deepslate_copper_ore"}}
+execute if block ~ ~ ~ deepslate_diamond_ore run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"deepslate_diamond_ore"}}
+execute if block ~ ~ ~ white_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"white_terracotta"}}
+execute if block ~ ~ ~ terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"cobblestone"}}
+execute if block ~ ~ ~ light_gray_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"light_gray_terracotta"}}
+execute if block ~ ~ ~ gray_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"gray_terracotta"}}
+execute if block ~ ~ ~ black_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"black_terracotta"}}
+execute if block ~ ~ ~ brown_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"brown_terracotta"}}
+execute if block ~ ~ ~ red_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"red_terracotta"}}
+execute if block ~ ~ ~ orange_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"orange_terracotta"}}
+execute if block ~ ~ ~ yellow_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"yellow_terracotta"}}
+execute if block ~ ~ ~ lime_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"lime_terracotta"}}
+execute if block ~ ~ ~ green_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"green_terracotta"}}
+execute if block ~ ~ ~ cyan_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"cyan_terracotta"}}
+execute if block ~ ~ ~ light_blue_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"light_blue_terracotta"}}
+execute if block ~ ~ ~ blue_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"blue_terracotta"}}
+execute if block ~ ~ ~ purple_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"purple_terracotta"}}
+execute if block ~ ~ ~ magenta_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"magenta_terracotta"}}
+execute if block ~ ~ ~ pink_terracotta run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"pink_terracotta"}}
+execute if block ~ ~ ~ dirt run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"dirt"}}
+execute if block ~ ~ ~ coarse_dirt run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"coarse_dirt"}}
+execute if block ~ ~ ~ dirt_path run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"dirt_path"}}
+execute if block ~ ~ ~ podzol run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"podzol"}}
+execute if block ~ ~ ~ grass run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"grass"}}
+execute if block ~ ~ ~ clay run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"clay"}}
+execute if block ~ ~ ~ farmland run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"farmland"}}
+execute if block ~ ~ ~ moss_block run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"moss_block"}}
+execute if block ~ ~ ~ sculk run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"sculk"}}
+execute if block ~ ~ ~ sandstone run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"sandstone"}}
+execute if block ~ ~ ~ red_sandstone run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"red_sandstone"}}
+
+
+
+setblock ~ ~ ~ air replace

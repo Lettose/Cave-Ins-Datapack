@@ -1,0 +1,54 @@
+execute if block ~ ~ ~ cobblestone run setblock ~-1 ~-1 ~ cobblestone
+execute if block ~ ~ ~ cobbled_deepslate run setblock ~-1 ~-1 ~ cobbled_deepslate
+execute if block ~ ~ ~ tuff run setblock ~-1 ~-1 ~ tuff
+execute if block ~ ~ ~ andesite run setblock ~-1 ~-1 ~ andesite
+execute if block ~ ~ ~ diorite run setblock ~-1 ~-1 ~ diorite
+execute if block ~ ~ ~ granite run setblock ~-1 ~-1 ~ granite
+execute if block ~ ~ ~ coal_ore run setblock ~-1 ~-1 ~ coal_ore
+execute if block ~ ~ ~ iron_ore run setblock ~-1 ~-1 ~ iron_ore
+execute if block ~ ~ ~ gold_ore run setblock ~-1 ~-1 ~ gold_ore
+execute if block ~ ~ ~ emerald_ore run setblock ~-1 ~-1 ~ emerald_ore
+execute if block ~ ~ ~ redstone_ore run setblock ~-1 ~-1 ~ redstone_ore
+execute if block ~ ~ ~ lapis_ore run setblock ~-1 ~-1 ~ lapis_ore
+execute if block ~ ~ ~ copper_ore run setblock ~-1 ~-1 ~ copper_ore
+execute if block ~ ~ ~ diamond_ore run setblock ~-1 ~-1 ~ diamond_ore
+execute if block ~ ~ ~ deepslate_coal_ore run setblock ~-1 ~-1 ~ deepslate_coal_ore
+execute if block ~ ~ ~ deepslate_iron_ore run setblock ~-1 ~-1 ~ deepslate_iron_ore
+execute if block ~ ~ ~ deepslate_gold_ore run setblock ~-1 ~-1 ~ deepslate_gold_ore
+execute if block ~ ~ ~ deepslate_emerald_ore run setblock ~-1 ~-1 ~ deepslate_emerald_ore
+execute if block ~ ~ ~ deepslate_redstone_ore run setblock ~-1 ~-1 ~ deepslate_redstone_ore
+execute if block ~ ~ ~ deepslate_lapis_ore run setblock ~-1 ~-1 ~ deepslate_lapis_ore
+execute if block ~ ~ ~ deepslate_copper_ore run setblock ~-1 ~-1 ~ deepslate_copper_ore
+execute if block ~ ~ ~ deepslate_diamond_ore run setblock ~-1 ~-1 ~ deepslate_diamond_ore
+execute if block ~ ~ ~ white_terracotta run setblock ~-1 ~-1 ~ white_terracotta
+execute if block ~ ~ ~ terracotta run setblock ~-1 ~-1 ~ cobblestone
+execute if block ~ ~ ~ light_gray_terracotta run setblock ~-1 ~-1 ~ light_gray_terracotta
+execute if block ~ ~ ~ gray_terracotta run setblock ~-1 ~-1 ~ gray_terracotta
+execute if block ~ ~ ~ black_terracotta run setblock ~-1 ~-1 ~ black_terracotta
+execute if block ~ ~ ~ brown_terracotta run setblock ~-1 ~-1 ~ brown_terracotta
+execute if block ~ ~ ~ red_terracotta run setblock ~-1 ~-1 ~ red_terracotta
+execute if block ~ ~ ~ orange_terracotta run setblock ~-1 ~-1 ~ orange_terracotta
+execute if block ~ ~ ~ yellow_terracotta run setblock ~-1 ~-1 ~ yellow_terracotta
+execute if block ~ ~ ~ lime_terracotta run setblock ~-1 ~-1 ~ lime_terracotta
+execute if block ~ ~ ~ green_terracotta run setblock ~-1 ~-1 ~ green_terracotta
+execute if block ~ ~ ~ cyan_terracotta run setblock ~-1 ~-1 ~ cyan_terracotta
+execute if block ~ ~ ~ light_blue_terracotta run setblock ~-1 ~-1 ~ light_blue_terracotta
+execute if block ~ ~ ~ blue_terracotta run setblock ~-1 ~-1 ~ blue_terracotta
+execute if block ~ ~ ~ purple_terracotta run setblock ~-1 ~-1 ~ purple_terracotta
+execute if block ~ ~ ~ magenta_terracotta run setblock ~-1 ~-1 ~ magenta_terracotta
+execute if block ~ ~ ~ pink_terracotta run setblock ~-1 ~-1 ~ pink_terracotta
+execute if block ~ ~ ~ dirt run setblock ~-1 ~-1 ~ dirt
+execute if block ~ ~ ~ coarse_dirt run setblock ~-1 ~-1 ~ coarse_dirt
+execute if block ~ ~ ~ dirt_path run setblock ~-1 ~-1 ~ dirt_path
+execute if block ~ ~ ~ podzol run setblock ~-1 ~-1 ~ podzol
+execute if block ~ ~ ~ grass run setblock ~-1 ~-1 ~ grass
+execute if block ~ ~ ~ clay run setblock ~-1 ~-1 ~ clay
+execute if block ~ ~ ~ farmland run setblock ~-1 ~-1 ~ farmland
+execute if block ~ ~ ~ moss_block run setblock ~-1 ~-1 ~ moss_block
+execute if block ~ ~ ~ sculk run setblock ~-1 ~-1 ~ sculk
+execute if block ~ ~ ~ sandstone run setblock ~-1 ~-1 ~ sandstone
+execute if block ~ ~ ~ red_sandstone run setblock ~-1 ~-1 ~ red_sandstone
+
+
+
+execute unless block ~ ~ ~ #dried_concrete run setblock ~ ~ ~ air replace

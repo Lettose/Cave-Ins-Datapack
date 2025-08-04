@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "S",
+    "X",
+    "S"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stripped_warped_stem"
+    },
+    "S": {
+      "item": "minecraft:polished_deepslate"
+    }
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Warped Support\"}",
+      "minecraft:profile": {
+        "id": [
+          -2013246257,
+          -717336671,
+          -1367796754,
+          1373997014
+        ],
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM1ZmMyZDJmOWJmOGFmZTM1MWVjZDg2OTE3ZjMxZWNkZjRjNzhjYTJkZDBkODM4NWIxYWQyYTFhNDg1NmE1MiJ9fX0="
+          }
+        ]
+      }
+    }
+  },
+  "show_notification": false
+}

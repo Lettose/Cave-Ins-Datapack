@@ -1,0 +1,15 @@
+{
+    "values":[
+        "air",
+        "cave_air",
+        "cobweb",
+        "water",
+        "tall_grass",
+        "grass",
+        "water",
+        "lava",
+        "#flowers",
+        "#crops",
+        "#fire"
+    ]
+  }

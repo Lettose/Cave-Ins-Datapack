@@ -1,0 +1,1 @@
+playsound minecraft:block.deepslate.fall ambient @a[distance=0..20] ~ ~ ~ 0.4 0.1 0.1
