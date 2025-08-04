@@ -1,24 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "category": "building",
   "pattern": [
     "S",
     "X",
     "S"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:stripped_acacia_log"
-    },
-    "S": {
-      "item": "minecraft:polished_deepslate"
-    }
+    "X": [
+      "stripped_acacia_log"
+    ],
+    "S": [
+      "polished_deepslate"
+    ]
   },
   "result": {
     "id": "minecraft:player_head",
     "count": 1,
     "components": {
-      "minecraft:custom_name": "{\"text\":\"Acacia Support\"}",
+      "minecraft:custom_name": "Acacia Support",
       "minecraft:profile": {
         "id": [
           684192821,

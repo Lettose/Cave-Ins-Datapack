@@ -1,24 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "category": "building",
   "pattern": [
     "S",
     "X",
     "S"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:stripped_birch_log"
-    },
-    "S": {
-      "item": "minecraft:polished_deepslate"
-    }
+    "X": [
+      "stripped_birch_log"
+    ],
+    "S": [
+      "polished_deepslate"
+    ]
   },
   "result": {
     "id": "minecraft:player_head",
     "count": 1,
     "components": {
-      "minecraft:custom_name": "{\"text\":\"Birch Support\"}",
+      "minecraft:custom_name": "Birch Support",
       "minecraft:profile": {
         "id": [
           -1611975553,
