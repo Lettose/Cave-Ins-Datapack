@@ -22,6 +22,7 @@ execute as @s run kill @e[type=item,nbt={Item:{id:"minecraft:mangrove_fence"}},d
 execute as @s run kill @e[type=item,nbt={Item:{id:"minecraft:acacia_fence"}},distance=0..10,limit=1,sort=nearest]
 execute as @s run kill @e[type=item,nbt={Item:{id:"minecraft:warped_fence"}},distance=0..10,limit=1,sort=nearest]
 execute as @s run kill @e[type=item,nbt={Item:{id:"minecraft:crimson_fence"}},distance=0..10,limit=1,sort=nearest]
+execute as @s run kill @e[type=item,nbt={Item:{id:"minecraft:pale_oak_fence"}},distance=0..10,limit=1,sort=nearest]
 
 
 execute as @s[tag=oak] positioned ~ ~-1 ~ run function cave_in:supports/summon_supports/oak
@@ -34,5 +35,6 @@ execute as @s[tag=mangrove] positioned ~ ~-1 ~ run function cave_in:supports/sum
 execute as @s[tag=cherry] positioned ~ ~-1 ~ run function cave_in:supports/summon_supports/cherry
 execute as @s[tag=crimson] positioned ~ ~-1 ~ run function cave_in:supports/summon_supports/crimson
 execute as @s[tag=warped] positioned ~ ~-1 ~ run function cave_in:supports/summon_supports/warped
+execute as @s[tag=pale_oak] positioned ~ ~-1 ~ run function cave_in:supports/summon_supports/pale_oak
 
 execute as @s run kill @s

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S",
+    "X",
+    "S"
+  ],
+  "key": {
+    "X": [
+      "stripped_pale_oak_log"
+    ],
+    "S": [
+      "polished_deepslate"
+    ]
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "Pale Oak Support",
+      "minecraft:profile": {
+        "id": [
+          1231768801,
+          96683768,
+          -1266961277,
+          715783387
+        ],
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQxODZlODJiZDdkMDcwZjY0NjIwOTVkMzg5Y2ExYTRjODRlZjJlMTVhMWQzNDhlN2RmYzFjOTY3OGJhNWFmZSJ9fX0="
+          }
+        ]
+      }
+    }
+  },
+  "show_notification": false
+}

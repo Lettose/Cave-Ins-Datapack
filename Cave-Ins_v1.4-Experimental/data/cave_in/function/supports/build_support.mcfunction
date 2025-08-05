@@ -25,6 +25,7 @@ execute as @s[tag=cherry,scores={cave_in.tick=20}] run setblock ~ ~ ~ cherry_fen
 execute as @s[tag=acacia,scores={cave_in.tick=20}] run setblock ~ ~ ~ acacia_fence destroy
 execute as @s[tag=warped,scores={cave_in.tick=20}] run setblock ~ ~ ~ warped_fence destroy
 execute as @s[tag=crimson,scores={cave_in.tick=20}] run setblock ~ ~ ~ crimson_fence destroy
+execute as @s[tag=pale_oak,scores={cave_in.tick=20}] run setblock ~ ~ ~ pale_oak_fence destroy
 execute as @s[scores={cave_in.tick=20}] run setblock ~ ~1 ~ polished_deepslate_wall destroy
 execute as @s[scores={cave_in.tick=20}] run kill @e[type=item,nbt={Age:0s},limit=2,sort=nearest]
 execute as @s[scores={cave_in.tick=20}] run tag @s add 3_blocks_tall
@@ -42,6 +43,7 @@ execute as @s[tag=cherry,scores={cave_in.tick=30}] run setblock ~ ~ ~ cherry_fen
 execute as @s[tag=acacia,scores={cave_in.tick=30}] run setblock ~ ~ ~ acacia_fence destroy
 execute as @s[tag=warped,scores={cave_in.tick=30}] run setblock ~ ~ ~ warped_fence destroy
 execute as @s[tag=crimson,scores={cave_in.tick=30}] run setblock ~ ~ ~ crimson_fence destroy
+execute as @s[tag=pale_oak,scores={cave_in.tick=30}] run setblock ~ ~ ~ pale_oak_fence destroy
 execute as @s[scores={cave_in.tick=30}] run setblock ~ ~1 ~ polished_deepslate_wall destroy
 execute as @s[scores={cave_in.tick=30}] run kill @e[type=item,nbt={Age:0s},limit=2,sort=nearest]
 execute as @s[scores={cave_in.tick=30}] run tag @s add 4_blocks_tall
@@ -59,6 +61,7 @@ execute as @s[tag=cherry,scores={cave_in.tick=40}] run setblock ~ ~ ~ cherry_fen
 execute as @s[tag=acacia,scores={cave_in.tick=40}] run setblock ~ ~ ~ acacia_fence destroy
 execute as @s[tag=warped,scores={cave_in.tick=40}] run setblock ~ ~ ~ warped_fence destroy
 execute as @s[tag=crimson,scores={cave_in.tick=40}] run setblock ~ ~ ~ crimson_fence destroy
+execute as @s[tag=pale_oak,scores={cave_in.tick=40}] run setblock ~ ~ ~ pale_oak_fence destroy
 execute as @s[scores={cave_in.tick=40}] run setblock ~ ~1 ~ polished_deepslate_wall destroy
 execute as @s[scores={cave_in.tick=40}] run kill @e[type=item,nbt={Age:0s},limit=2,sort=nearest]
 execute as @s[scores={cave_in.tick=40}] run tag @s add 5_blocks_tall
@@ -76,6 +79,7 @@ execute as @s[tag=cherry,scores={cave_in.tick=50}] run setblock ~ ~ ~ cherry_fen
 execute as @s[tag=acacia,scores={cave_in.tick=50}] run setblock ~ ~ ~ acacia_fence destroy
 execute as @s[tag=warped,scores={cave_in.tick=50}] run setblock ~ ~ ~ warped_fence destroy
 execute as @s[tag=crimson,scores={cave_in.tick=50}] run setblock ~ ~ ~ crimson_fence destroy
+execute as @s[tag=pale_oak,scores={cave_in.tick=50}] run setblock ~ ~ ~ pale_oak_fence destroy
 execute as @s[scores={cave_in.tick=50}] run setblock ~ ~1 ~ polished_deepslate_wall destroy
 execute as @s[scores={cave_in.tick=50}] run kill @e[type=item,nbt={Age:0s},limit=2,sort=nearest]
 execute as @s[scores={cave_in.tick=50}] run tag @s add 6_blocks_tall
@@ -93,6 +97,7 @@ execute as @s[tag=cherry,scores={cave_in.tick=60}] run setblock ~ ~ ~ cherry_fen
 execute as @s[tag=acacia,scores={cave_in.tick=60}] run setblock ~ ~ ~ acacia_fence destroy
 execute as @s[tag=warped,scores={cave_in.tick=60}] run setblock ~ ~ ~ warped_fence destroy
 execute as @s[tag=crimson,scores={cave_in.tick=60}] run setblock ~ ~ ~ crimson_fence destroy
+execute as @s[tag=pale_oak,scores={cave_in.tick=60}] run setblock ~ ~ ~ pale_oak_fence destroy
 execute as @s[scores={cave_in.tick=60}] run setblock ~ ~1 ~ polished_deepslate_wall destroy
 execute as @s[scores={cave_in.tick=60}] run kill @e[type=item,nbt={Age:0s},limit=2,sort=nearest]
 execute as @s[scores={cave_in.tick=60}] run tag @s add 7_blocks_tall
@@ -110,6 +115,7 @@ execute as @s[tag=cherry,scores={cave_in.tick=70}] run setblock ~ ~ ~ cherry_fen
 execute as @s[tag=acacia,scores={cave_in.tick=70}] run setblock ~ ~ ~ acacia_fence destroy
 execute as @s[tag=warped,scores={cave_in.tick=70}] run setblock ~ ~ ~ warped_fence destroy
 execute as @s[tag=crimson,scores={cave_in.tick=70}] run setblock ~ ~ ~ crimson_fence destroy
+execute as @s[tag=pale_oak,scores={cave_in.tick=70}] run setblock ~ ~ ~ pale_oak_fence destroy
 execute as @s[scores={cave_in.tick=70}] run setblock ~ ~1 ~ polished_deepslate_wall destroy
 execute as @s[scores={cave_in.tick=70}] run kill @e[type=item,nbt={Age:0s},limit=2,sort=nearest]
 execute as @s[scores={cave_in.tick=70}] run tag @s add 8_blocks_tall
@@ -127,6 +133,7 @@ execute as @s[tag=cherry,scores={cave_in.tick=80}] run setblock ~ ~ ~ cherry_fen
 execute as @s[tag=acacia,scores={cave_in.tick=80}] run setblock ~ ~ ~ acacia_fence destroy
 execute as @s[tag=warped,scores={cave_in.tick=80}] run setblock ~ ~ ~ warped_fence destroy
 execute as @s[tag=crimson,scores={cave_in.tick=80}] run setblock ~ ~ ~ crimson_fence destroy
+execute as @s[tag=pale_oak,scores={cave_in.tick=80}] run setblock ~ ~ ~ pale_oak_fence destroy
 execute as @s[scores={cave_in.tick=80}] run setblock ~ ~1 ~ polished_deepslate_wall destroy
 execute as @s[scores={cave_in.tick=80}] run kill @e[type=item,nbt={Age:0s},limit=2,sort=nearest]
 execute as @s[scores={cave_in.tick=80}] run tag @s add 9_blocks_tall
@@ -144,6 +151,7 @@ execute as @s[tag=cherry,scores={cave_in.tick=90}] run setblock ~ ~ ~ cherry_fen
 execute as @s[tag=acacia,scores={cave_in.tick=90}] run setblock ~ ~ ~ acacia_fence destroy
 execute as @s[tag=warped,scores={cave_in.tick=90}] run setblock ~ ~ ~ warped_fence destroy
 execute as @s[tag=crimson,scores={cave_in.tick=90}] run setblock ~ ~ ~ crimson_fence destroy
+execute as @s[tag=pale_oak,scores={cave_in.tick=90}] run setblock ~ ~ ~ pale_oak_fence destroy
 execute as @s[scores={cave_in.tick=90}] run setblock ~ ~1 ~ polished_deepslate_wall destroy
 execute as @s[scores={cave_in.tick=90}] run kill @e[type=item,nbt={Age:0s},limit=2,sort=nearest]
 execute as @s[scores={cave_in.tick=90}] run tag @s add 10_blocks_tall

@@ -28,6 +28,10 @@ execute if block ~ ~ ~ player_head{profile:{id:[I;-2101812418,1320110717,-131958
 # Warped Support
 execute if block ~ ~ ~ player_head{profile:{id:[I;-2013246257,-717336671,-1367796754,1373997014]}} run function cave_in:supports/create_new_support
 
+# Pale Oak Support
+execute if block ~ ~ ~ player_head{profile:{id:[I;1231768801,96683768,-1266961277,715783387]}} run function cave_in:supports/create_new_support
+
+
 
 
 # Player Wall Heads
@@ -60,4 +64,7 @@ execute if block ~ ~ ~ player_wall_head{profile:{id:[I;-2101812418,1320110717,-1
 
 # Warped Support
 execute if block ~ ~ ~ player_wall_head{profile:{id:[I;-2013246257,-717336671,-1367796754,1373997014]}} run function cave_in:supports/create_new_support
+
+# Pale Oak Support
+execute if block ~ ~ ~ player_wall_head{profile:{id:[I;1231768801,96683768,-1266961277,715783387]}} run function cave_in:supports/create_new_support
 
