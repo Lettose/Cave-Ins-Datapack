@@ -2,16 +2,16 @@ execute if entity @s[type=player,scores={cave_in.place_player_head=1..}] run sum
 
 execute if entity @s[tag=highlight] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[ray,highlight_ray]}
 
-execute if entity @s[type=player,nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}],SelectedItem:{id:"minecraft:netherite_pickaxe"}}] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[ray,highlight_ray,unsupported]}
-execute if entity @s[type=player,nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}],SelectedItem:{id:"minecraft:diamond_pickaxe"}}] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[ray,highlight_ray,unsupported]}
-execute if entity @s[type=player,nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}],SelectedItem:{id:"minecraft:golden_pickaxe"}}] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[ray,highlight_ray,unsupported]}
-execute if entity @s[type=player,nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}],SelectedItem:{id:"minecraft:iron_pickaxe"}}] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[ray,highlight_ray,unsupported]}
-execute if entity @s[type=player,nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}],SelectedItem:{id:"minecraft:stone_pickaxe"}}] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[ray,highlight_ray,unsupported]}
-execute if entity @s[type=player,nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}],SelectedItem:{id:"minecraft:wooden_pickaxe"}}] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[ray,highlight_ray,unsupported]}
+execute if entity @s[type=player] if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:netherite_pickaxe run summon area_effect_cloud ~ ~ ~ {Duration:1,Radius:0,WaitTime:0,Tags:[ray,highlight_ray,unsupported]}
+execute if entity @s[type=player] if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:diamond_pickaxe run summon area_effect_cloud ~ ~ ~ {Duration:1,Radius:0,WaitTime:0,Tags:[ray,highlight_ray,unsupported]}
+execute if entity @s[type=player] if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:golden_pickaxe run summon area_effect_cloud ~ ~ ~ {Duration:1,Radius:0,WaitTime:0,Tags:[ray,highlight_ray,unsupported]}
+execute if entity @s[type=player] if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:iron_pickaxe run summon area_effect_cloud ~ ~ ~ {Duration:1,Radius:0,WaitTime:0,Tags:[ray,highlight_ray,unsupported]}
+execute if entity @s[type=player] if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:stone_pickaxe run summon area_effect_cloud ~ ~ ~ {Duration:1,Radius:0,WaitTime:0,Tags:[ray,highlight_ray,unsupported]}
+execute if entity @s[type=player] if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:wooden_pickaxe run summon area_effect_cloud ~ ~ ~ {Duration:1,Radius:0,WaitTime:0,Tags:[ray,highlight_ray,unsupported]}
 
-execute if entity @s[type=marker,tag=tnt_explosion] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[ray,tnt_ray]}
+execute if entity @s[type=marker,tag=tnt_explosion] run summon area_effect_cloud ~ ~ ~ {Duration:1,Radius:0,WaitTime:0,Tags:[ray,tnt_ray]}
 
-execute if entity @s[type=marker,tag=random_cavein] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[ray,random_cavein_ray]}
+execute if entity @s[type=marker,tag=random_cavein] run summon area_effect_cloud ~ ~ ~ {Duration:1,Radius:0,WaitTime:0,Tags:[ray,random_cavein_ray]}
 
 execute anchored eyes rotated as @s run tp @e[tag=ray,limit=1,sort=nearest] ^ ^ ^ ~ ~
 

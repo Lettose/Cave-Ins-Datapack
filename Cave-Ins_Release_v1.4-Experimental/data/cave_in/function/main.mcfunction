@@ -56,12 +56,12 @@ execute if score $global cave_in.random_cavein_timer matches 60 run scoreboard p
 ###### Highlight Block Ray Cast
 
 # execute as @a[tag=holding_pick] at @s run function cave_in:ray/cast
-execute if score $global cave_in.supports_display_en matches 1 as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe"}}] at @s run function cave_in:ray/cast
-execute if score $global cave_in.supports_display_en matches 1 as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe"}}] at @s run function cave_in:ray/cast
-execute if score $global cave_in.supports_display_en matches 1 as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:golden_pickaxe"}}] at @s run function cave_in:ray/cast
-execute if score $global cave_in.supports_display_en matches 1 as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:iron_pickaxe"}}] at @s run function cave_in:ray/cast
-execute if score $global cave_in.supports_display_en matches 1 as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:stone_pickaxe"}}] at @s run function cave_in:ray/cast
-execute if score $global cave_in.supports_display_en matches 1 as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe"}}] at @s run function cave_in:ray/cast
+execute if score $global cave_in.supports_display_en matches 1 as @a if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:netherite_pickaxe at @s at @s run function cave_in:ray/cast
+execute if score $global cave_in.supports_display_en matches 1 as @a if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:diamond_pickaxe at @s run function cave_in:ray/cast
+execute if score $global cave_in.supports_display_en matches 1 as @a if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:golden_pickaxe at @s at @s run function cave_in:ray/cast
+execute if score $global cave_in.supports_display_en matches 1 as @a if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:iron_pickaxe at @s at @s run function cave_in:ray/cast
+execute if score $global cave_in.supports_display_en matches 1 as @a if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:stone_pickaxe at @s at @s run function cave_in:ray/cast
+execute if score $global cave_in.supports_display_en matches 1 as @a if items entity @s weapon.offhand minecraft:soul_lantern if items entity @s weapon.mainhand minecraft:wooden_pickaxe at @s at @s run function cave_in:ray/cast
 
 execute if score $global cave_in.supports_display_en matches 1 as @e[tag=highlight] at @s run function cave_in:ray/cast
 
