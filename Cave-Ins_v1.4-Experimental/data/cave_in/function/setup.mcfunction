@@ -54,6 +54,7 @@ scoreboard objectives add cave_in.mine_red_sandstone minecraft.mined:minecraft.r
 scoreboard objectives add cave_in.place_player_head minecraft.used:minecraft.player_head
 
 scoreboard objectives add cave_in.tick dummy
+scoreboard objectives add cave_in.check_smoothing_count dummy
 scoreboard objectives add cave_in.random_cavein_timer dummy
 scoreboard objectives add cave_in.player_y_val dummy
 scoreboard objectives add cave_in.steps dummy

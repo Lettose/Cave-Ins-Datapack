@@ -3,6 +3,7 @@ scoreboard objectives remove cave_in.mine_stone
 scoreboard objectives remove cave_in.place_player_head
 
 scoreboard objectives remove cave_in.tick
+scoreboard objectives remove cave_in.check_smoothing_count
 scoreboard objectives remove cave_in.random_cavein_timer
 scoreboard objectives remove cave_in.player_y_val
 

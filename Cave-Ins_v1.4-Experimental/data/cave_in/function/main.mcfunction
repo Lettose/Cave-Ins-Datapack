@@ -43,6 +43,13 @@ execute as @e[type=falling_block,tag=soil,nbt={Time:1}] as @s run function cave_
 
 
 
+execute as @e[type=armor_stand,tag=smoothing_armor_stand] at @s unless block ~ ~-0.5 ~ #permeable run function cave_in:smoothing/place_marker
+
+execute as @e[type=marker,tag=smoothing_marker] at @s run function cave_in:smoothing/check_smooth
+
+
+
+
 ###### Random Cavein Chance ######
 execute if score $global cave_in.random_cavein_en matches 1 if predicate cave_in:random_cavein_tick_chance run scoreboard players add $global cave_in.random_cavein_timer 1
 
