@@ -50,5 +50,5 @@ execute if block ~ ~ ~ sandstone run summon falling_block ~ ~ ~ {BlockState:{Nam
 execute if block ~ ~ ~ red_sandstone run summon falling_block ~ ~ ~ {BlockState:{Name:"red_sandstone"},Tags:["soil"],Time:1,Passengers:[{id:"minecraft:armor_stand",Invisible:1b,NoGravity:0b,Invulnerable:1b,Tags:["smoothing_armor_stand"]}]}
 
 
-scoreboard players set @s cave_in.tick 24
+scoreboard players set @s cave_in.tick 12
 setblock ~ ~ ~ air replace
