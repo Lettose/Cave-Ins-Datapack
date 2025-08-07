@@ -50,5 +50,5 @@ execute if block ~ ~ ~ sculk align xyz positioned ~ ~ ~ run summon block_display
 execute if block ~ ~ ~ sandstone align xyz positioned ~ ~ ~ run summon block_display ~ ~ ~ {interpolation_duration:3,Tags:["smoothing_block_display","back"],block_state:{Name:"minecraft:sandstone"}}
 execute if block ~ ~ ~ red_sandstone align xyz positioned ~ ~ ~ run summon block_display ~ ~ ~ {interpolation_duration:3,Tags:["smoothing_block_display","back"],block_state:{Name:"minecraft:red_sandstone"}}
 
-
+execute align xyz positioned ~0.5 ~ ~0.5 run summon marker ~ ~-1 ~-1 {Tags:["smoothing_target"]}
 scoreboard players set @s cave_in.tick 12

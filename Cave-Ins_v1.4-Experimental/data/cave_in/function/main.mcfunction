@@ -47,6 +47,7 @@ execute as @e[type=armor_stand,tag=smoothing_armor_stand] at @s unless block ~ ~
 
 execute as @e[type=marker,tag=smoothing_marker] at @s run function cave_in:smoothing/check_smooth
 execute as @e[type=block_display,tag=smoothing_block_display] at @s run function cave_in:smoothing/block_display_tick
+execute as @e[type=marker,tag=smoothing_target] at @s run function cave_in:smoothing/smoothing_target_tick
 
 
 
