@@ -46,6 +46,8 @@ execute as @e[type=falling_block,tag=soil,nbt={Time:1}] as @s run function cave_
 execute as @e[type=armor_stand,tag=smoothing_armor_stand] at @s unless block ~ ~-0.5 ~ #permeable run function cave_in:smoothing/place_marker
 
 execute as @e[type=marker,tag=smoothing_marker] at @s run function cave_in:smoothing/check_smooth
+execute as @e[type=block_display,tag=smoothing_block_display] at @s run function cave_in:smoothing/block_display_tick
+
 
 
 
